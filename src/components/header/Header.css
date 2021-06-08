@@ -1,0 +1,81 @@
+.searchInput:focus, .searchButton:focus {
+    box-shadow: 0 0 0 0 !important;
+    border-bottom: 1px solid #ced4da !important;
+    outline: 0 !important;
+}
+
+.toggler-nav:focus {
+    box-shadow: 0 0 0 0 !important;
+    outline: 0 !important;
+}
+
+.toggler-nav {
+    border: none !important;
+}
+
+.searchInput {
+    border-top: 0 !important;
+    border-right: 0 !important;
+    border-left: 0 !important;
+    border-radius: 0 !important;
+}
+
+.searchButton {
+    border-top: 0 !important;
+    border-right: 0 !important;
+    border-left: 0 !important;
+    border-radius: 0 !important;
+    border-bottom: 1px solid #ced4da !important;
+}
+
+.itensStyle {
+    align-items: flex-end;
+    margin-left: 2rem;
+}
+
+/* Extra Small devices */
+@media (max-width: 576px) {
+    .hidden-xs {
+        display: none !important;
+    }
+    
+    .itensStyleMobile {
+        align-items: center !important;
+        margin-left: 0 !important;
+    }
+}
+
+/* Small devices */
+@media (min-width: 576px) and (max-width: 768px) {
+    .hidden-sm {
+        display: none !important;
+    }
+}
+
+/* Medium devices */
+@media (min-width: 768px) and (max-width: 991px) {
+    .hidden-md {
+        display: none !important;
+    }
+}
+
+/* Large devices */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .hidden-lg {
+        display: none !important;
+    }
+}
+
+/* X-Large devices */
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .hidden-xl {
+        display: none !important;
+    }
+}
+
+/* XX-Large devices */
+@media (min-width: 1400px) {
+    .hidden-xxl {
+        display: none !important;
+    }
+}

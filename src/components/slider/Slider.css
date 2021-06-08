@@ -1,0 +1,105 @@
+.carousel-indicators li {
+    border-radius: 100% !important;
+    box-sizing: content-box !important;
+    flex: 0 1 auto !important;
+    width: 8px !important;
+    height: 8px !important;
+    margin-right: 3px !important;
+    margin-left: 3px !important;
+    text-indent: -999px !important;
+    cursor: pointer !important;
+    background-color: #BDBDBD !important;
+    background-clip: padding-box !important;
+    border-top: 10px solid transparent !important;
+    border-bottom: 10px solid transparent !important;
+    transition: opacity .6s ease !important;
+    opacity: 1 !important;
+}
+
+.carousel-indicators .active {
+    opacity: 1 !important;
+    background-color: #F8475F !important;
+}
+
+.carousel-caption {
+    width: 410px !important;
+    position: absolute !important;
+    font-weight: 700 !important;
+    bottom: 7.25rem !important;
+    left: 10% !important;
+    padding-top: 1.25rem !important;
+    padding-bottom: 1.25rem !important;
+    color: #fff !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 30px !important;
+    line-height: 41px !important;
+    text-align: left !important;
+}
+
+.carousel-item {
+    height: 40vh;
+    background-image: url(../../images/carousel/slide.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+/* Extra Small devices */
+@media (max-width: 576px) {
+    .carousel-item-mobile {
+        height: 40vh;
+        background-image: url(../../images/carousel/slide_mobile.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+    }
+
+    .carousel-caption-mobile {
+        width: 100% !important;
+        position: absolute !important;
+        font-weight: 700 !important;
+        bottom: 3.25rem !important;
+        left: 5% !important;
+        padding-top: 1.25rem !important;
+        padding-bottom: 1.25rem !important;
+        color: #fff !important;
+        /* height: 147px !important; */
+        font-style: normal !important;
+        font-weight: bold !important;
+        font-size: 30px !important;
+        line-height: 37px !important;
+        text-align: left !important;       
+    }
+}
+
+/* Small devices */
+@media (min-width: 576px) and (max-width: 768px) {
+    .carousel-item-mobile {
+        height: 40vh;
+        background-image: url(../../images/carousel/slide_mobile.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+    }
+}
+
+/* Medium devices */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Large devices */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+/* X-Large devices */
+@media (min-width: 1200px) and (max-width: 1400px) {
+
+}
+
+/* XX-Large devices */
+@media (min-width: 1400px) {
+
+}
